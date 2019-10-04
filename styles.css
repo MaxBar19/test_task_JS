@@ -1,0 +1,101 @@
+.game_window{
+    display: flex;
+    flex-direction: row;
+    flex:auto;
+    margin-top: 50px;
+}
+
+.game_field{
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  justify-content: center;
+  padding-left: 20px;
+  border-right-color: lightgray;
+  border-right-style: solid;
+  border-right-width: 2px;
+}
+
+.game_field .upper_fields{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 100px;
+
+}
+
+.game_field .upper_fields *{
+  margin-right: 10px;
+}
+
+.game_field .message{
+  text-align: center;
+  margin: 0 0 15px;
+  font-size: 20px;
+}
+
+.game_field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+#dropdown_field {
+  height: 50px;
+  margin: 0;
+}
+
+.leaderboard{
+  padding-top: 100px;
+  padding-right: 20px;
+  padding: 100px 20px 0 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex:auto;
+  color: dimgray;
+}
+
+.leaderboard h2{
+  margin-left: 12px;
+}
+
+.leaderboard .container {
+  font-size: 20px;
+  padding: 10px 0 15px 15px; 
+}
+
+.leaderboard .grid{
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 3px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#table{
+  width: 300px;
+  margin: auto;
+}
+
+#table td{
+  border: 0.1px solid dimgray;
+  height: 50px;
+  width: 50px;
+}
+
+button{
+  height: 50px;
+  line-height: 22px;
+  display: inline-flex;
+  align-items: center; 
+}
+
+.red{background-color: firebrick;}
+.blue{background-color: royalblue;}
+.green{background-color: lime;}
